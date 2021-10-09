@@ -9,66 +9,65 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
   <title>Layout</title>
-
 </head>
 
 <body>
-  <header>
-    <div class="header-menu">
-      <div class="header-title">
+  <header class="header">
+    <div class="menu">
+      <div class="menu__title">
         MOVEE
       </div>
-      <div class="header-burger">
-        <i class="fas fa-bars header-burger"></i>
+      <div class="menu__burger">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+          class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+          width="1.7rem">
+          <path fill="currentColor"
+            d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+          </path>
+        </svg>
       </div>
-      <nav class="header-nav">
+      <nav class="menu__nav">
         <a href="#" title="Цены">Цены</a>
         <a href="#" title="Автопарк">Автопарк</a>
         <a href="#" title="Отзывы">Отзывы</a>
         <a href="#" title="Контакты">Контакты</a>
       </nav>
-      <div class="header-number">
-        <a href="#" title="Телефон">8(029)&#8208;999&#8208;12&#8208;13</a>
+      <div class="menu__number">
+        <a href="tel:80299991213">8(029)&#8208;999&#8208;12&#8208;13</a>
       </div>
     </div>
-
-    <div class="header-main">
-      <div class="header-main-text">
+    <div class="main">
+      <div class="main__text">
         <h1>Квартирные переезды</h1>
         <h2>По Бресту и области</h2>
-        <div class="header-main-img-and-button">
-          <div class="header-main-img2"><img src="styles/Rectangle3.png" alt="Image 1"></div>
-          <div class="button-and-border2">
-            <button class="button-order2">Заказать 2</button>
+        <div class="main__img-hidden">
+          <div class="main__only-img">
+            <img src="images/Man.png" alt="Man">
           </div>
         </div>
-
-        <div class="button-and-border">
-          <button class="button-order">Заказать</button>
-          <div class="white-border"></div>
+        <div class="main__button-border">
+          <button class="main__button">Заказать</button>
+          <div class="main__white-border"></div>
         </div>
-        <div class="three-icons">
-          <div class="truck size">
-            <img src="truck.png" alt="Truck">
+        <div class="main__three-icons">
+          <div class="truck size-three-icons">
+            <img src="images/truck.png" alt="Truck">
             <p>Более 800 переездов</p>
           </div>
-          <div class="trigger-two size">
-            <img src="triggerTwo.png" alt="triggerTwo">
+          <div class="trigger-two size-three-icons">
+            <img src="images/triggerTwo.png" alt="triggerTwo">
             <p>Бережная упаковка</p>
           </div>
-          <div class="money size">
-            <img src="money.png" alt="Money">
+          <div class="money size-three-icons">
+            <img src="images/money.png" alt="Money">
             <p>Фиксированная цена</p>
           </div>
         </div>
       </div>
-      <div class="header-main-img">
-        <img src="styles/Rectangle3.png" alt="Image 1">
+      <div class="main__img">
+        <img src="images/Man.png" alt="Man">
       </div>
-
     </div>
-
-
   </header>
 </body>
 
