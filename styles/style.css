@@ -48,6 +48,9 @@ body {
 .menu__nav a:first-child {
   margin: 0;
 }
+.menu__nav a:hover {
+  color: var(--red);
+}
 .menu__number {
   flex-grow: 1;
   text-align: right;
@@ -57,6 +60,9 @@ body {
 }
 .menu__number a {
   color: var(--gray);
+}
+.menu__number a:hover {
+  color: var(--red);
 }
 .menu__burger {
   flex-grow: 1;
@@ -162,7 +168,7 @@ body {
     text-align: center;
   }
   .main__text h1 {
-    font-size: 3.1rem;
+    font-size: 3rem;
   }
   .menu__nav,
   .menu__number {
