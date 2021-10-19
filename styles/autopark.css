@@ -1,0 +1,152 @@
+.autopark {
+  text-align: center;
+}
+.autopark__title {
+  font-weight: 600;
+  font-size: 1.88rem;
+  line-height: 2.32rem;
+  margin: 6.25rem 0 1rem 0;
+}
+.autopark__subtitle {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.81rem;
+  margin: 0 0 3.75rem 0;
+}
+.autopark__buttons {
+  display: flex;
+  justify-content: center;
+}
+.gazelles,
+.kabluki,
+.lorries {
+  padding: 0.7rem 2.5rem;
+  border: 0.06rem solid var(--lightgray);
+  background-color: var(--white);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1.25rem 2.9rem 0;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+.gazelles:hover,
+.kabluki:hover,
+.lorries:hover {
+  border: 0.06rem solid var(--yellow);
+}
+.autopark__main {
+  display: flex;
+  max-width: 55rem;
+  margin: 0 auto;
+}
+.autopark__main2 {
+  display: none !important;
+  display: flex;
+  max-width: 55rem;
+  margin: 0 auto;
+}
+.about-car {
+  flex: 0 1 50%;
+  text-align: start;
+}
+.car-img {
+  flex: 0 1 60%;
+}
+.car-img img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.switch-position1 {
+  position: relative;
+  right: 6.25rem;
+  top: 8.75rem;
+}
+.switch-position2 {
+  position: relative;
+  left: 6.25rem;
+  top: 8.75rem;
+}
+.car-name {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.81rem;
+  padding: 0 0 2.31rem 0;
+}
+.advantages {
+  line-height: 1.31rem;
+  padding-bottom: 1.75rem;
+}
+.advantages_other {
+  line-height: 1.31rem;
+  padding-bottom: 2.19rem;
+}
+.order-car {
+  padding: 1rem 5rem;
+  margin: 0 0 8.13rem 0;
+  background-color: var(--yellow);
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  border: none;
+}
+.text-button-media {
+  display: none;
+}
+@media all and (max-width: 650px) {
+  .autopark__title {
+    margin: 2.5rem 0 1.25rem 0;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+  .autopark__subtitle {
+    display: none;
+  }
+  .gazelles,
+  .kabluki,
+  .lorries {
+    padding: 0;
+    border: none;
+    background-color: var(--white);
+    box-sizing: border-box;
+    display: block;
+    margin: 0 1.68rem;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+  .gazelles:hover,
+  .kabluki:hover,
+  .lorries:hover {
+    border: none;
+    border-bottom: 0.06rem solid var(--yellow);
+  }
+  .autopark__main {
+    display: block;
+  }
+  .about-car,
+  .switch-position1,
+  .switch-position2 {
+    display: none;
+  }
+  .text-button-media {
+    display: block;
+  }
+  .text-media {
+    font-size: 0.75rem;
+    line-height: 0.9rem;
+    margin: 1.25rem 0 1.87rem 0;
+  }
+  .button-media {
+    background: var(--yellow);
+    padding: 1rem 6rem;
+    margin: 2rem auto;
+    border-style: none;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+}

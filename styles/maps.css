@@ -1,0 +1,19 @@
+.maps-hidden {
+  display: none;
+}
+@media all and (max-width: 650px) {
+  .maps-hidden {
+    display: flex;
+    flex-direction: column;
+    padding: 46px 130px 47px 44px;
+    font-size: 15px;
+  }
+  .city,
+  .phone {
+    margin-bottom: 20px;
+  }
+  .phone a,
+  .link a {
+    color: var(--gray);
+  }
+}

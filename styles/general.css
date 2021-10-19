@@ -8,6 +8,7 @@
   --white: #ffffff;
   --lightgray: #ebebeb;
   --light-blue: #f8fbff;
+  --black2: #0E0F12;
 }
 
 body {
@@ -16,7 +17,11 @@ body {
   font-family: "Montserrat", sans-serif;
   color: var(--gray);
   font-size: 16px;
+  box-sizing: border-box;
 }
 main {
   background-color: var(--white);
+}
+.wrapper {
+  overflow: hidden;
 }

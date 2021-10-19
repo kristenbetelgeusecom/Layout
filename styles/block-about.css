@@ -1,14 +1,14 @@
 .block-about {
   max-width: 75rem;
   margin: 0 auto;
+  padding: 5.9rem 0.5rem 0 0.5rem;
 }
 .block-about__title {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   font-weight: 600;
   font-size: 1.87rem;
   line-height: 0.4rem;
-  padding: 5.9rem 0 3.75rem 0;
+  margin: 0 0 3.75rem 0;
 }
 .block-about__content {
   display: grid;
@@ -65,5 +65,10 @@
   }
   .box-number_04 {
     padding: 0 0.8rem;
+  }
+}
+@media all and (max-width: 375px) {
+  .block-about__title {
+    font-size: 1.6rem;
   }
 }
