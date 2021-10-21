@@ -36,6 +36,7 @@
   box-shadow: 0 0.25rem 1.5rem var(--yellow);
 }
 .block-prices__button {
+  cursor: pointer;
   background: var(--yellow);
   padding: 1rem 5rem;
   border-style: none;

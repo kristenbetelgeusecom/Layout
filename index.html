@@ -357,33 +357,84 @@
               <div class="forms-city">
                 <div class="select">Укажите город</div>
                 <select name="Region" id="region">
-                  <option value="1">Мозырь</option>
-                  <option value="2">Город 1</option>
-                  <option value="3">Город 2</option>
-                  <option value="4">Город 3</option>
-                  <option value="5">Город 4</option>
-                  <option value="6">Город 5</option>
-                  <option value="7">Город 6</option>
+                  <option value="1">Минск</option>
+                  <option value="2">Витебск</option>
+                  <option value="3">Гомель</option>
+                  <option value="4">Гродно</option>
+                  <option value="5">Брест</option>
+                  <option value="6">Могилёв</option>
                 </select>
               </div>
             </div>
             <div class="forms__payment">
               <div class="select">Способ оплаты</div>
               <div class="forms-position1">
-                <div class="cash"><input type="radio" name="answer1" value="1"><label>Наличными курьеру</label></div>
-                <div class="card"><input type="radio" name="answer2" value="2"><label>Картой курьеру</label></div>
-                <div class="bank-transfer"><input type="radio" name="answer3" value="3"><label>Банковский
-                    перевод</label></div>
+                <div class="cash">
+                  <label class="radio">
+                    <input type="radio" name="answer" value="1" class="radio__input" tabindex="1">
+                    <span class="radio__box"></span>
+                    Наличными курьеру
+                  </label>
+                </div>
+                <div class="card">
+                  <label class="radio">
+                    <input type="radio" name="answer" value="2" class="radio__input" tabindex="2">
+                    <span class="radio__box"></span>
+                    Картой курьеру
+                  </label>
+                </div>
+                <div class="bank-transfer">
+                  <label class="radio">
+                    <input type="radio" name="answer" value="3" class="radio__input" tabindex="3">
+                    <span class="radio__box"></span>
+                    Банковский перевод
+                  </label>
+                </div>
               </div>
             </div>
             <div class="forms__services">
-              <div class="select">Дополнительные услуги</div>
-              <div class="forms-position1">
-                <div><input type="checkbox" name="call"><label>Вызов замерщика</label></div>
-                <div><input type="checkbox" name="packing"><label>Упаковка для хрупких предметов</label></div>
-                <div><input type="checkbox" name="crane"><label>Кран</label></div>
-                <div><input type="checkbox" name="furniture"><label>Сборка мебели</label></div>
-                <div id="large-item"><input type="checkbox" name="large-item"><label>Крупногабаритные предметы</label>
+              <div class="select">Дополнительные услуги
+                <span>
+                  <img src="images/Vector-top.png" alt="Arrow">
+                </span>
+              </div>
+              <div class="forms-position2">
+                <div>
+                  <label class="check">
+                    <input type="checkbox" name="call" class="check__input">
+                    <span class="check__box"></span>
+                    Вызов замерщика
+                  </label>
+                </div>
+                <div>
+                  <label class="check">
+                    <input type="checkbox" name="packing" class="check__input">
+                    <span class="check__box"></span>
+                    Упаковка для хрупких предметов
+                  </label>
+                </div>
+                <div>
+                  <label class="check">
+                    <input type="checkbox" name="crane" class="check__input">
+                    <span class="check__box"></span>
+                    Кран
+                  </label>
+                </div>
+              </div>
+              <div class="forms-position3">
+                <div>
+                  <label class="check2">
+                    <input type="checkbox" name="furniture" class="check__input">
+                    <span class="check__box"></span>
+                    Сборка мебели
+                  </label>
+                </div>
+                <div>
+                  <label class="check3">
+                    <input type="checkbox" name="large-item" class="check__input">
+                    <span class="check__box"></span>
+                    Крупногабаритные предметы
+                  </label>
                 </div>
               </div>
             </div>
@@ -391,14 +442,19 @@
               <div class="forms-time">05:37:25</div>
               <div class="forms-button">
                 <div class="forms__button-border">
-                  <button class="forms__button">
+                  <button class="forms__button" type="submit">
                     <div class="hidden-mobile">Заказать со скидкой</div>
                     <div class="button-call-back">Перезвонить мне</div>
                   </button>
                   <div class="forms__white-border"></div>
                 </div>
-                <div class="consent"><input type="checkbox" name="consent"><label>Даю согласие на обработку
-                    данных</label></div>
+                <div class="consent">
+                  <label class="check-gray">
+                    <input type="checkbox" name="consent" class="check-gray__input">
+                    <span class="check-gray__box"></span>
+                    Даю согласие на обработку данных
+                  </label>
+                </div>
               </div>
             </div>
           </div>

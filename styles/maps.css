@@ -16,4 +16,7 @@
   .link a {
     color: var(--gray);
   }
+  .phone a:hover {
+    color: var(--red);
+  }
 }
