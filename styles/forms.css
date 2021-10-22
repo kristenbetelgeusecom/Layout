@@ -64,6 +64,8 @@ input[type="text"] {
 .radio__input {
   position: absolute;
   appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 .radio__box {
   display: block;
@@ -114,6 +116,8 @@ input[type="text"] {
 .check__input {
   position: absolute;
   appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 .check__box {
   display: block;
@@ -189,6 +193,8 @@ input[type="text"] {
 .check-gray__input {
   position: absolute;
   appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 .check-gray__box {
   display: block;
