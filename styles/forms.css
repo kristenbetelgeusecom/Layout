@@ -51,25 +51,28 @@ input[type="text"] {
 }
 .forms-position1 {
   display: flex;
+  align-items: stretch;
   justify-content: space-between;
-  flex-wrap: wrap;
   margin: 0 2rem 3.93rem 0;
 }
 .forms-position1 div {
   margin-bottom: 1.87rem;
 }
 .radio {
-  padding-left: 2.5rem;
+  display: flex;
+  padding-left: 1rem;
 }
 .radio__input {
   position: absolute;
   appearance: none;
+  z-index: -1;
   -webkit-appearance: none;
   -moz-appearance: none;
 }
 .radio__box {
-  display: block;
-  position: absolute;
+  display: flex;
+  position: relative;
+  right: 0.5rem;
   margin-top: -0.2em;
   border-radius: 5em;
   background-color: var(--gray2);
@@ -88,7 +91,9 @@ input[type="text"] {
 }
 .forms-position2 {
   display: flex;
-  margin: 0 0 2.06rem 0;
+  align-items: stretch;
+  justify-content: space-between;
+  margin: 0 1.5rem 2.06rem 0;
 }
 .forms-position2 div {
   flex-grow: 1;
@@ -105,13 +110,13 @@ input[type="text"] {
   flex-basis: 12.9rem;
 }
 .check {
-  padding-left: 0.5rem;
-}
-.check2 {
-  margin-left: -1rem;
+  display: flex;
+  padding-left: 1rem;
+  text-align: start;
 }
 .check3 {
-  padding-left: 2.5rem;
+  display: flex;
+  padding-left: 3rem;
 }
 .check__input {
   position: absolute;
@@ -120,8 +125,9 @@ input[type="text"] {
   -moz-appearance: none;
 }
 .check__box {
-  display: block;
-  position: absolute;
+  display: flex;
+  position: relative;
+  right: 0.5rem;
   margin-top: -0.2em;
   border-radius: 0.05em;
   background-color: var(--gray2);
@@ -185,10 +191,11 @@ input[type="text"] {
   display: none;
 }
 .consent {
+  display: flex;
   margin: 1.5rem 0;
 }
 .check-gray {
-  padding-left: 1rem;
+  display: flex;
 }
 .check-gray__input {
   position: absolute;
@@ -197,15 +204,15 @@ input[type="text"] {
   -moz-appearance: none;
 }
 .check-gray__box {
-  display: block;
+  display: flex;
   position: absolute;
   border-radius: 0.05em;
   background-color: var(--gray2);
-  width: 1rem;
-  height: 1rem;
+  width: 0.7rem;
+  height: 0.7rem;
   box-shadow: 0 0 0 0.1em var(--gray3);
 }
-.check-gray:checked + .check-gray__box {
+.check-gray__input:checked + .check-gray__box {
   background: url(../images/check-gray.svg) no-repeat;
   background-position: center;
   background-color: var(--gray2);
@@ -254,8 +261,5 @@ input[type="text"] {
   .consent {
     margin: 1rem 0;
     text-align: start;
-  }
-  .check-gray {
-    padding-left: 1.5rem;
   }
 }
