@@ -16,7 +16,7 @@
         <div class="menu__title">
           MOVEE
         </div>
-        <div class="menu__burger">
+        <div class="menu__burger clickMenu">
           <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
             class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
             width="1.7rem">
@@ -67,6 +67,24 @@
           <img src="images/Man.png" alt="Man">
         </div>
       </div>
+      <nav id="menuVertical" class="closeMenuVertical">
+        <div id="menuMovee">
+          MOVEE
+        </div>
+        <div id="menuSwitch" class="closeMenu">
+          <img src="images/menuSwitch.png" alt="Switch">
+        </div>
+        <ul>
+          <li><a href="#m1">Главная</a></li>
+          <li><a href="#m2">Цена</a></li>
+          <li><a href="#m3">Автопарк</a></li>
+          <li><a href="#m4">Отзывы</a></li>
+          <li><a href="#m5">Контакты</a></li>
+        </ul>
+        <div id="menuPhone">8(029)&#8210;999&#8210;12&#8210;13
+          <div id="menuLine"></div>
+        </div>
+      </nav>
     </header>
     <main>
       <div class="block-about">
@@ -130,7 +148,7 @@
             <button class="block-prices__button">Заказать</button>
             <a href="#">Все цены</a>
           </div>
-          <div class="block-prices__box ">
+          <div class="block-prices__box">
             <div class="block-prices__box_first">2&#8208;комнатная кв&#8208;ра</div>
             <p>1 газель &#8211; 3 метра</p>
             <p>2 грузчика</p>
@@ -277,10 +295,12 @@
             </div>
             <div class="reviews-text">Обращение к вам за помощью в переезде оставило только положительные впечатления.
               Хотелось отметить замечательного
-              водителя газели Алексея. Были трудности с заездом
-              во двор, он проявил себя как компетентный
-              и профессиональный сотрудник, за что ему огромное...</div>
-            <a href="#">Читать полностью</a>
+              водителя газели Алексея.
+              <span class="review1">Были трудности с заездом
+                во двор, он проявил себя как компетентный
+                и профессиональный сотрудник, за что ему огромное спасибо.</span>
+            </div>
+            <a class="openReview1">Читать полностью</a>
           </div>
           <div class="reviews__box">
             <div class="reviews-name">Светлана Васильевна</div>
@@ -297,12 +317,13 @@
             <div class="reviews-text">Сегодня &#40; 13.09.2019 &#41; мы переехали. Остались очень довольны, несмотря на
               то, что к
               нам опоздали на 1,5 часа. Морально
-              были к этому готовы &#40;в прошлый переезд в другой фирме тоже опоздали на час&#41;. Водитель заранее
-              позвонил,
-              предупредил,
-              что задерживается.
-              Когда....</div>
-            <a href="#">Читать полностью</a>
+              были к этому готовы &#40;в прошлый переезд в другой фирме тоже опоздали на час&#41;.
+              <span class="review2">Водитель заранее
+                позвонил,
+                предупредил,
+                что задерживается.</span>
+            </div>
+            <a class="openReview2">Читать полностью</a>
           </div>
           <div class="reviews__box">
             <div class="reviews-name">Ольга Петрова</div>
@@ -321,9 +342,10 @@
               упрощает расчет. Безо всяких
               заморочек, в отличии от их конкурентов. Упаковали все качественно и быстро. Все вещи приехали в
               сохранности.
-              Особая
-              благодарность Александру за его...</div>
-            <a href="#">Читать полностью</a>
+              <span class="review3">Особая
+                благодарность Александру.</span>
+            </div>
+            <a class="openReview3">Читать полностью</a>
           </div>
         </div>
         <button class="reviews__button">Все отзывы</button>
@@ -389,10 +411,10 @@
             <div class="forms-services">
               <div class="select">Дополнительные услуги
                 <span>
-                  <img src="images/Vector-top.png" alt="Arrow">
+                  <img src="images/Vector-top.png" alt="Arrow" class="select_img">
                 </span>
               </div>
-              <div class="forms-services__position">
+              <div class="forms-services__position moreServices">
                 <label class="check">
                   <input type="checkbox" name="call" class="check__input">
                   <span class="check__box"></span>
@@ -494,6 +516,7 @@
       </div>
     </footer>
   </div>
+  <script src="script.js"></script>
 </body>
 
 </html>

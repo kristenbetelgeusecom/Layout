@@ -47,6 +47,12 @@
   display: flex;
   justify-content: center;
 }
+.review1, .review2, .review3 {
+  display: none;
+}
+.openReview1, .openReview2, .openReview3 {
+  border-bottom: 1px solid var(--gray);
+}
 .reviews__button:hover {
   background-color: var(--white);
   border: 0.06rem solid var(--white);

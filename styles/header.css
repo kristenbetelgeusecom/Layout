@@ -2,8 +2,8 @@
   background: var(--yellow);
   padding-top: 3rem;
   overflow: hidden;
+  position: relative;
 }
-
 .menu {
   display: flex;
   justify-content: center;
@@ -205,5 +205,109 @@
     border-style: none;
     margin-bottom: 2.5rem;
     position: relative;
+  }
+}
+/* ВЫПАДАЮЩЕЕ МЕНЮ */
+#menuVertical {
+  display: none;
+  width: 20rem;
+  height: 50.5rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  background: var(--white);
+  border-radius: 1.875rem 0 0 1.875rem;
+}
+#menuMovee {
+  position: relative;
+  left: 1rem;
+  top: 3.43rem;
+  font-weight: 600;
+  color: var(--gray);
+  display: none;
+}
+#menuSwitch {
+  height: 7.5rem;
+  background: var(--white);
+  border-radius: 1.875rem;
+}
+#menuSwitch img {
+  position: relative;
+  left: 15.9rem;
+  top: 1.685rem;
+}
+#menuVertical ul {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+}
+#menuVertical ul li {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+#menuVertical ul li a {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  font-size: 1.75rem;
+  color: var(--black);
+  line-height: 2.125rem;
+  padding: 1.25rem 8.81rem 1.25rem 2.375rem;
+  background: var(--white);
+  text-decoration: none;
+}
+
+#menuVertical ul li:first-child a {
+  border: 0;
+}
+#menuVertical ul li a:hover,
+#menuVertical ul li:hover a {
+  background: var(--black);
+  color: var(--white);
+}
+#menuVertical ul li ul {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  display: none;
+  width: auto;
+}
+#menuPhone {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 2rem 3.125rem 0 3.125rem;
+  text-align: center;
+}
+#menuPhone:hover {
+  color: var(--red);
+}
+#menuLine {
+  border-bottom: 1px solid var(--gray);
+  position: relative;
+  width: 70%;
+  left: 1.875rem;
+  padding-top: 0.5rem;
+}
+@media all and (max-width: 400px) {
+  #menuVertical {
+    border-radius: 0;
+    width: 100%;
+    height: 53.5rem;
+  }
+  #menuMovee {
+    display: block;
+  }
+  #menuSwitch img {
+    position: relative;
+    left: 19.9rem;
   }
 }
