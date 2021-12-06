@@ -45,8 +45,7 @@
   margin: 0 auto;
 }
 .autopark__main2 {
-  display: none !important;
-  display: flex;
+  display: none;
   max-width: 55rem;
   margin: 0 auto;
 }
