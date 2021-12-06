@@ -65,3 +65,40 @@ openreview3.addEventListener('click', function () {
     isOpenReview3 = false
   }
 })
+
+
+
+
+
+let time = 18000;
+const countDownElement = document.querySelector('.forms-time')
+
+setInterval(updateCountdown, 1000);
+
+function updateCountdown() {
+  let hours = Math.floor(time / 3600);
+  const minutes = Math.floor(time / 300);
+  let seconds = time % 60;
+  hours = hours < 10 ? "0" + hours : hours;
+  seconds = seconds < 10 ? "0" + seconds : seconds;
+  countDownElement.innerHTML = `${hours}:${minutes}:${seconds}`;
+  time--;
+}
+
+const send = querySelector('.send')
+const name = querySelector('.name')
+const phone = querySelector('.phone')
+const form = document.querySelector('form');
+
+send.addEventListener('click', function (e) {
+  e.preventDefault();
+  if (name.value === '' && phone.value === '') {
+    name.classList.add(error)
+    phone.classList.add(error)
+  }
+  if (name.value !== '' && phone.value !== '') {
+    name.classList.remove('error');
+    phone.classList.remove('error');
+  }
+})
+

@@ -36,3 +36,7 @@ main {
 body.lock {
   overflow: hidden;
 }
+
+.error {
+  border: 1px solid var(--red);
+}
