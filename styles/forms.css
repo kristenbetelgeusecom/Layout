@@ -262,3 +262,9 @@ input[type="text"] {
 .hidden {
   display: none;
 }
+.name.error {
+  border: 1px solid var(--red);
+}
+.phone.error {
+  border: 1px solid var(--red);
+}

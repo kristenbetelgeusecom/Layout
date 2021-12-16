@@ -12,7 +12,6 @@
   --light-blue: #f8fbff;
   --black2: #0e0f12;
 }
-
 body {
   margin: 0;
   padding: 0;
@@ -32,11 +31,6 @@ main {
 *::before {
   box-sizing: border-box;
 }
-
 body.lock {
   overflow: hidden;
-}
-
-.error {
-  border: 1px solid var(--red);
 }
