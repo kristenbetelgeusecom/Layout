@@ -213,6 +213,10 @@ input[type="text"] {
   display: flex;
   text-align: start;
 }
+.add-city {
+  margin: 3rem 0 0 0;
+  width: 100% !important;
+}
 @media all and (max-width: 768px) {
   .forms__title {
     text-align: center;

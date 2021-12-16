@@ -110,3 +110,14 @@ send.addEventListener('click', function (e) {
   }
 })
 
+
+const addCity = document.querySelector('.add-city')
+const cities = document.querySelector('.cities')
+addCity.addEventListener('keypress', (event) => {
+  if (event.key === 'Enter') {
+    const p = document.createElement('option')
+    p.innerHTML = addCity.value
+    cities.appendChild(p)
+  }
+})
+
