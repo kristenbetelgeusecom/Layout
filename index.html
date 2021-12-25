@@ -170,113 +170,121 @@
         <div class="autopark__title">Автопарк</div>
         <div class="autopark__subtitle">10 видов автомобилей от 800 кг до 10 тонн</div>
         <div class="autopark__buttons">
-          <button class="gazelles active">Газели</button>
-          <button class="kabluki">Каблуки</button>
-          <button class="lorries">Грузовики</button>
+          <button class="gazelles" onclick="curentSlide(1)">Газели</button>
+          <button class="kabluki" onclick="curentSlide(2)">Каблуки</button>
+          <button class="lorries" onclick="curentSlide(3)">Грузовики</button>
         </div>
-        <div class="autopark__main">
-          <div class="switch-position1">
-            <img src="images/switch-left.png" alt="switch-left">
-          </div>
-          <div class="about-car">
-            <div class="car-name">Газель 3 метра</div>
-            <div class="list-of-advantages">
-              <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
-                <span>Ширина 2 м</span>
-              </div>
-              </li>
-              <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
-                <span>Высота 2 м</span>
-              </div>
-              <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
-                <span>Объем 16 м<sup>3</sup></span>
-              </div>
-              <div class="advantages_other"><span><img src="images/Vector.png" alt="Vector"></span>
-                <span>Грузоподъемность 1,5 т</span>
-              </div>
+        <div class="autopark__main slider">
+          <div class="item">
+            <div class="switch-position1 prev" onclick="minusSlide()">
+              <img src="images/switch-left.png" alt="switch-left">
             </div>
-            <button class="order-car">Заказать</button>
-          </div>
-          <div class="car-img">
-            <img src="images/gazelles.png" alt="Gazelles">
-          </div>
-          <div class="text-button-media">
-            <div class="text-media">Газель 3 метра / 1,5 тонны</div>
-            <button class="button-media">Заказать</button>
-          </div>
-          <div class="switch-position2">
-            <img src="images/switch_right.png" alt="switch_right">
-          </div>
-        </div>
-        <div class="autopark__main2">
-          <div class="switch-position1">
-            <img src="images/switch-left.png" alt="switch-left">
-          </div>
-          <div class="about-car">
-            <div class="car-name">Каблук 2 метра</div>
-            <div class="list-of-advantages">
-              <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
-                <span>Ширина 1.8 м</span>
+            <div class="about-car">
+              <div class="car-name">Газель 3 метра</div>
+              <div class="list-of-advantages">
+                <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
+                  <span>Ширина 2 м</span>
+                </div>
+                </li>
+                <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
+                  <span>Высота 2 м</span>
+                </div>
+                <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
+                  <span>Объем 16 м<sup>3</sup></span>
+                </div>
+                <div class="advantages_other"><span><img src="images/Vector.png" alt="Vector"></span>
+                  <span>Грузоподъемность 1.5 т</span>
+                </div>
               </div>
-              </li>
-              <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
-                <span>Высота 1.2 м</span>
-              </div>
-              <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
-                <span>Объем 8 м<sup>3</sup></span>
-              </div>
-              <div class="advantages_other"><span><img src="images/Vector.png" alt="Vector"></span>
-                <span>Грузоподъемность 0.8 т</span>
-              </div>
+              <button class="order-car">Заказать</button>
             </div>
-            <button class="order-car">Заказать</button>
-          </div>
-          <div class="car-img">
-            <img src="images/kabluki.png" alt="Kabluki">
-          </div>
-          <div class="text-button-media">
-            <div class="text-media">Газель 3 метра / 1,5 тонны</div>
-            <button class="button-media">Заказать</button>
-          </div>
-          <div class="switch-position2">
-            <img src="images/switch_right.png" alt="switch_right">
-          </div>
-        </div>
-        <div class="autopark__main2">
-          <div class="switch-position1">
-            <img src="images/switch-left.png" alt="switch-left">
-          </div>
-          <div class="about-car">
-            <div class="car-name">Грузовик 3 метра</div>
-            <div class="list-of-advantages">
-              <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
-                <span>Ширина 3 м</span>
-              </div>
-              </li>
-              <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
-                <span>Высота 3 м</span>
-              </div>
-              <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
-                <span>Объем 20 м<sup>3</sup></span>
-              </div>
-              <div class="advantages_other"><span><img src="images/Vector.png" alt="Vector"></span>
-                <span>Грузоподъемность 2 т</span>
-              </div>
+            <div class="car-img">
+              <img src="images/gazelles.png" alt="Gazelles">
             </div>
-            <button class="order-car">Заказать</button>
-          </div>
-          <div class="car-img">
-            <img src="images/lorries.png" alt="Lorries">
-          </div>
-          <div class="text-button-media">
-            <div class="text-media">Газель 3 метра / 1,5 тонны</div>
-            <button class="button-media">Заказать</button>
-          </div>
-          <div class="switch-position2">
-            <img src="images/switch_right.png" alt="switch_right">
+            <div class="text-button-media">
+              <div class="text-media">Газель 3 метра / 1.5 тонны</div>
+            </div>
+            <div class="switch-position2 next" onclick="plusSlide()">
+              <img src="images/switch_right.png" alt="switch_right">
+            </div>
           </div>
         </div>
-
+        <div class="autopark__main slider">
+          <div class="item">
+            <div class="switch-position1 prev" onclick="minusSlide()">
+              <img src="images/switch-left.png" alt="switch-left">
+            </div>
+            <div class="about-car">
+              <div class="car-name">Каблук 2 метра</div>
+              <div class="list-of-advantages">
+                <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
+                  <span>Ширина 1.8 м</span>
+                </div>
+                </li>
+                <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
+                  <span>Высота 1.2 м</span>
+                </div>
+                <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
+                  <span>Объем 8 м<sup>3</sup></span>
+                </div>
+                <div class="advantages_other"><span><img src="images/Vector.png" alt="Vector"></span>
+                  <span>Грузоподъемность 0.8 т</span>
+                </div>
+              </div>
+              <button class="order-car">Заказать</button>
+            </div>
+            <div class="car-img">
+              <img src="images/kabluki.png" alt="Kabluki">
+            </div>
+            <div class="text-button-media">
+              <div class="text-media">Каблук 2 метра / 0.8 тонны</div>
+            </div>
+            <div class="switch-position2 next" onclick="plusSlide()">
+              <img src="images/switch_right.png" alt="switch_right">
+            </div>
+          </div>
+        </div>
+        <div class="autopark__main slider">
+          <div class="item">
+            <div class="switch-position1 prev" onclick="minusSlide()">
+              <img src="images/switch-left.png" alt="switch-left">
+            </div>
+            <div class="about-car">
+              <div class="car-name">Грузовик 3 метра</div>
+              <div class="list-of-advantages">
+                <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
+                  <span>Ширина 3 м</span>
+                </div>
+                </li>
+                <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
+                  <span>Высота 3 м</span>
+                </div>
+                <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
+                  <span>Объем 20 м<sup>3</sup></span>
+                </div>
+                <div class="advantages_other"><span><img src="images/Vector.png" alt="Vector"></span>
+                  <span>Грузоподъемность 2 т</span>
+                </div>
+              </div>
+              <button class="order-car">Заказать</button>
+            </div>
+            <div class="car-img">
+              <img src="images/lorries.png" alt="Lorries">
+            </div>
+            <div class="text-button-media">
+              <div class="text-media">Грузовик 3 метра / 2 тонны</div>
+            </div>
+            <div class="switch-position2 next" onclick="plusSlide()">
+              <img src="images/switch_right.png" alt="switch_right">
+            </div>
+          </div>
+        </div>
+        <div class="slider-dots">
+          <span class="slider-dots_item" onclick="curentSlide(1)"></span>
+          <span class="slider-dots_item" onclick="curentSlide(2)"></span>
+          <span class="slider-dots_item" onclick="curentSlide(3)"></span>
+        </div>
+        <button class="button-media">Заказать</button>
       </div>
       <div class="reviews">
         <div class="reviews__title">Отзывы</div>
@@ -376,9 +384,6 @@
                   <option value="7">Гомельская</option>
                 </select>
               </div>
-
-
-
               <div class="forms-city">
                 <div class="select">Укажите город</div>
                 <select name="Region" id="region" class="cities">
@@ -392,9 +397,6 @@
                 </select>
                 <input type="text" class="add-city" placeholder="Добавить город">
               </div>
-
-
-
             </div>
             <div class="forms-payment">
               <div class="select">Способ оплаты</div>
