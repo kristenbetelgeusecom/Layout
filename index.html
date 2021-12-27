@@ -10,63 +10,524 @@
 </head>
 
 <body>
-  <header class="header">
-    <div class="menu">
-      <div class="menu__title">
-        MOVEE
+  <div class="wrapper">
+    <header class="header">
+      <div class="menu">
+        <div class="menu__title">
+          MOVEE
+        </div>
+        <div class="menu__burger clickMenu">
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+            class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+            width="1.7rem">
+            <path fill="currentColor"
+              d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+            </path>
+          </svg>
+        </div>
+        <nav class="menu__nav">
+          <a href="#" title="Цены">Цены</a>
+          <a href="#" title="Автопарк">Автопарк</a>
+          <a href="#" title="Отзывы">Отзывы</a>
+          <a href="#" title="Контакты">Контакты</a>
+        </nav>
+        <div class="menu__number">
+          <a href="tel:80299991213">8(029)&#8208;999&#8208;12&#8208;13</a>
+        </div>
       </div>
-      <div class="menu__burger">
-        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
-          class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
-          width="1.7rem">
-          <path fill="currentColor"
-            d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
-          </path>
-        </svg>
+      <div class="main">
+        <div class="main__text">
+          <h1>Квартирные переезды</h1>
+          <h2>По Бресту и области</h2>
+          <div class="main__img-hidden">
+            <div class="main__only-img">
+              <img src="images/Man-media.png" alt="Man">
+            </div>
+          </div>
+          <div class="main__button-border">
+            <button class="main__button">Заказать</button>
+            <div class="main__white-border"></div>
+          </div>
+          <div class="main__three-icons">
+            <div class="truck size-three-icons">
+              <img src="images/truck.png" alt="Truck">
+              <p>Более 800 переездов</p>
+            </div>
+            <div class="trigger-two size-three-icons">
+              <img src="images/triggerTwo.png" alt="triggerTwo">
+              <p>Бережная упаковка</p>
+            </div>
+            <div class="money size-three-icons">
+              <img src="images/money.png" alt="Money">
+              <p>Фиксированная цена</p>
+            </div>
+          </div>
+        </div>
+        <div class="main__img">
+          <img src="images/Man.png" alt="Man">
+        </div>
       </div>
-      <nav class="menu__nav">
-        <a href="#" title="Цены">Цены</a>
-        <a href="#" title="Автопарк">Автопарк</a>
-        <a href="#" title="Отзывы">Отзывы</a>
-        <a href="#" title="Контакты">Контакты</a>
+      <nav id="menuVertical" class="closeMenuVertical">
+        <div id="menuMovee">
+          MOVEE
+        </div>
+        <div id="menuSwitch" class="closeMenu">
+          <img src="images/menuSwitch.png" alt="Switch">
+        </div>
+        <ul>
+          <li><a href="#m1">Главная</a></li>
+          <li><a href="#m2">Цена</a></li>
+          <li><a href="#m3">Автопарк</a></li>
+          <li><a href="#m4">Отзывы</a></li>
+          <li><a href="#m5">Контакты</a></li>
+        </ul>
+        <div id="menuPhone">8(029)&#8210;999&#8210;12&#8210;13
+          <div id="menuLine"></div>
+        </div>
       </nav>
-      <div class="menu__number">
-        <a href="tel:80299991213">8(029)&#8208;999&#8208;12&#8208;13</a>
-      </div>
-    </div>
-    <div class="main">
-      <div class="main__text">
-        <h1>Квартирные переезды</h1>
-        <h2>По Бресту и области</h2>
-        <div class="main__img-hidden">
-          <div class="main__only-img">
-            <img src="images/Man-media.png" alt="Man">
+    </header>
+    <main>
+      <div class="block-about">
+        <div class="block-about__title">Как это происходит&#63;</div>
+        <div class="block-about__content">
+          <div class="block-about__box">
+            <div class="box-number_01">
+              <div class="img-position1"><img src="images/01.png" alt="01.png"></div>
+              <div class="img-position2"><img src="images/01-yellow.png" alt="01-yellow.png"></div>
+            </div>
+            <div class="box-text">
+              <div class="box-text__title">Оценка объема предстоящих работ</div>
+              <div class="box-text__subtitle">Стоимость переезда зависит от количества комнат, вещей и мебели.</div>
+            </div>
+          </div>
+          <div class="block-about__box">
+            <div class="box-number_02">
+              <div class="img-position1"><img src="images/02.png" alt="02.png"></div>
+              <div class="img-position2"><img src="images/02-yellow.png" alt="02-yellow.png"></div>
+            </div>
+            <div class="box-text">
+              <div class="box-text__title">Упаковка вещей</div>
+              <div class="box-text__subtitle">Упаковываем вещи в коробки, подписываем. Габаритное и деликатное,
+                упаковываем отдельно.</div>
+            </div>
+          </div>
+          <div class="block-about__box">
+            <div class="box-number_03">
+              <div class="img-position1"><img src="images/03.png" alt="03.png"></div>
+              <div class="img-position2"><img src="images/03-yellow.png" alt="03-yellow.png"></div>
+            </div>
+            <div class="box-text">
+              <div class="box-text__title">Погрузка и транспортировка вещей</div>
+              <div class="box-text__subtitle">В нашем автопарке имеются машины, подходящие для мебели любых габаритов.
+              </div>
+            </div>
+          </div>
+          <div class="block-about__box">
+            <div class="box-number_04">
+              <div class="img-position1"><img src="images/04.png" alt="04.png"></div>
+              <div class="img-position2"><img src="images/04-yellow.png" alt="04-yellow.png"></div>
+            </div>
+            <div class="box-text">
+              <div class="box-text__title">Распаковка и расстановка мебели</div>
+              <div class="box-text__subtitle">Опытные грузчики быстро расставят мебель и уберут мусор от распаковки.
+              </div>
+            </div>
           </div>
         </div>
-        <div class="main__button-border">
-          <button class="main__button">Заказать</button>
-          <div class="main__white-border"></div>
-        </div>
-        <div class="main__three-icons">
-          <div class="truck size-three-icons">
-            <img src="images/truck.png" alt="Truck">
-            <p>Более 800 переездов</p>
+      </div>
+      <div class="block-prices">
+        <div class="block-prices__title">Цены</div>
+        <div class="block-prices__subtitle">Фиксированная стоимость на переезд под ключ</div>
+        <div class="block-prices__content">
+          <div class="block-prices__box">
+            <div class="block-prices__box_first">1&#8208;комнатная кв&#8208;ра</div>
+            <p>1 фургон</p>
+            <p>2 грузчика</p>
+            <p>Переезд за 4 часа</p>
+            <div class="box-prices">70 руб.</div>
+            <button class="block-prices__button">Заказать</button>
+            <a href="#">Все цены</a>
           </div>
-          <div class="trigger-two size-three-icons">
-            <img src="images/triggerTwo.png" alt="triggerTwo">
-            <p>Бережная упаковка</p>
+          <div class="block-prices__box">
+            <div class="block-prices__box_first">2&#8208;комнатная кв&#8208;ра</div>
+            <p>1 газель &#8211; 3 метра</p>
+            <p>2 грузчика</p>
+            <p>Переезд за 4 часа</p>
+            <div class="box-prices">100 руб.</div>
+            <button class="block-prices__button">Заказать</button>
           </div>
-          <div class="money size-three-icons">
-            <img src="images/money.png" alt="Money">
-            <p>Фиксированная цена</p>
+          <div class="block-prices__box">
+            <div class="block-prices__box_first">3&#8208;комнатная кв&#8208;ра</div>
+            <p>1 газель &#8211; 4 метра</p>
+            <p>2 грузчика</p>
+            <p>Переезд за 6 часов</p>
+            <div class="box-prices">150 руб.</div>
+            <button class="block-prices__button">Заказать</button>
           </div>
         </div>
       </div>
-      <div class="main__img">
-        <img src="images/Man.png" alt="Man">
+      <div class="autopark">
+        <div class="autopark__title">Автопарк</div>
+        <div class="autopark__subtitle">10 видов автомобилей от 800 кг до 10 тонн</div>
+        <div class="autopark__buttons">
+          <button class="gazelles" onclick="curentSlide(1)">Газели</button>
+          <button class="kabluki" onclick="curentSlide(2)">Каблуки</button>
+          <button class="lorries" onclick="curentSlide(3)">Грузовики</button>
+        </div>
+        <div class="autopark__main slider">
+          <div class="item">
+            <div class="switch-position1 prev" onclick="minusSlide()">
+              <img src="images/switch-left.png" alt="switch-left">
+            </div>
+            <div class="about-car">
+              <div class="car-name">Газель 3 метра</div>
+              <div class="list-of-advantages">
+                <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
+                  <span>Ширина 2 м</span>
+                </div>
+                </li>
+                <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
+                  <span>Высота 2 м</span>
+                </div>
+                <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
+                  <span>Объем 16 м<sup>3</sup></span>
+                </div>
+                <div class="advantages_other"><span><img src="images/Vector.png" alt="Vector"></span>
+                  <span>Грузоподъемность 1.5 т</span>
+                </div>
+              </div>
+              <button class="order-car">Заказать</button>
+            </div>
+            <div class="car-img">
+              <img src="images/gazelles.png" alt="Gazelles">
+            </div>
+            <div class="text-button-media">
+              <div class="text-media">Газель 3 метра / 1.5 тонны</div>
+            </div>
+            <div class="switch-position2 next" onclick="plusSlide()">
+              <img src="images/switch_right.png" alt="switch_right">
+            </div>
+          </div>
+        </div>
+        <div class="autopark__main slider">
+          <div class="item">
+            <div class="switch-position1 prev" onclick="minusSlide()">
+              <img src="images/switch-left.png" alt="switch-left">
+            </div>
+            <div class="about-car">
+              <div class="car-name">Каблук 2 метра</div>
+              <div class="list-of-advantages">
+                <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
+                  <span>Ширина 1.8 м</span>
+                </div>
+                </li>
+                <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
+                  <span>Высота 1.2 м</span>
+                </div>
+                <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
+                  <span>Объем 8 м<sup>3</sup></span>
+                </div>
+                <div class="advantages_other"><span><img src="images/Vector.png" alt="Vector"></span>
+                  <span>Грузоподъемность 0.8 т</span>
+                </div>
+              </div>
+              <button class="order-car">Заказать</button>
+            </div>
+            <div class="car-img">
+              <img src="images/kabluki.png" alt="Kabluki">
+            </div>
+            <div class="text-button-media">
+              <div class="text-media">Каблук 2 метра / 0.8 тонны</div>
+            </div>
+            <div class="switch-position2 next" onclick="plusSlide()">
+              <img src="images/switch_right.png" alt="switch_right">
+            </div>
+          </div>
+        </div>
+        <div class="autopark__main slider">
+          <div class="item">
+            <div class="switch-position1 prev" onclick="minusSlide()">
+              <img src="images/switch-left.png" alt="switch-left">
+            </div>
+            <div class="about-car">
+              <div class="car-name">Грузовик 3 метра</div>
+              <div class="list-of-advantages">
+                <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
+                  <span>Ширина 3 м</span>
+                </div>
+                </li>
+                <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
+                  <span>Высота 3 м</span>
+                </div>
+                <div class="advantages"><span><img src="images/Vector.png" alt="Vector"></span>
+                  <span>Объем 20 м<sup>3</sup></span>
+                </div>
+                <div class="advantages_other"><span><img src="images/Vector.png" alt="Vector"></span>
+                  <span>Грузоподъемность 2 т</span>
+                </div>
+              </div>
+              <button class="order-car">Заказать</button>
+            </div>
+            <div class="car-img">
+              <img src="images/lorries.png" alt="Lorries">
+            </div>
+            <div class="text-button-media">
+              <div class="text-media">Грузовик 3 метра / 2 тонны</div>
+            </div>
+            <div class="switch-position2 next" onclick="plusSlide()">
+              <img src="images/switch_right.png" alt="switch_right">
+            </div>
+          </div>
+        </div>
+        <div class="slider-dots">
+          <span class="slider-dots_item" onclick="curentSlide(1)"></span>
+          <span class="slider-dots_item" onclick="curentSlide(2)"></span>
+          <span class="slider-dots_item" onclick="curentSlide(3)"></span>
+        </div>
+        <button class="button-media">Заказать</button>
       </div>
-    </div>
-  </header>
+      <div class="reviews">
+        <div class="reviews__title">Отзывы</div>
+        <div class="reviews__content">
+          <div class="reviews__box">
+            <div class="reviews-name">Ирина</div>
+            <div class="date-and-stars">
+              <span class="date-position">24.03.2019</span>
+              <span class="stars-position">
+                <img src="images/stars.png" alt="Star">
+                <img src="images/stars.png" alt="Star">
+                <img src="images/stars.png" alt="Star">
+                <img src="images/stars.png" alt="Star">
+                <img src="images/stars.png" alt="Star">
+              </span>
+            </div>
+            <div class="reviews-text">Обращение к вам за помощью в переезде оставило только положительные впечатления.
+              Хотелось отметить замечательного
+              водителя газели Алексея.
+              <span class="review1">Были трудности с заездом
+                во двор, он проявил себя как компетентный
+                и профессиональный сотрудник, за что ему огромное спасибо.</span>
+            </div>
+            <a class="openReview1">Читать полностью</a>
+          </div>
+          <div class="reviews__box">
+            <div class="reviews-name">Светлана Васильевна</div>
+            <div class="date-and-stars">
+              <span class="date-position">13.09.2019</span>
+              <span class="stars-position">
+                <img src="images/stars.png" alt="Star">
+                <img src="images/stars.png" alt="Star">
+                <img src="images/stars.png" alt="Star">
+                <img src="images/stars.png" alt="Star">
+                <img src="images/stars.png" alt="Star">
+              </span>
+            </div>
+            <div class="reviews-text">Сегодня &#40; 13.09.2019 &#41; мы переехали. Остались очень довольны, несмотря на
+              то, что к
+              нам опоздали на 1,5 часа. Морально
+              были к этому готовы &#40;в прошлый переезд в другой фирме тоже опоздали на час&#41;.
+              <span class="review2">Водитель заранее
+                позвонил,
+                предупредил,
+                что задерживается.</span>
+            </div>
+            <a class="openReview2">Читать полностью</a>
+          </div>
+          <div class="reviews__box">
+            <div class="reviews-name">Ольга Петрова</div>
+            <div class="date-and-stars">
+              <span class="date-position">11.11.2019</span>
+              <span class="stars-position">
+                <img src="images/stars.png" alt="Star">
+                <img src="images/stars.png" alt="Star">
+                <img src="images/stars.png" alt="Star">
+                <img src="images/stars.png" alt="Star">
+                <img src="images/stars.png" alt="Star">
+              </span>
+            </div>
+            <div class="reviews-text">Могу на 100&#37; порекомендовать компанию MOVEE и отметить, что цены фиксированы,
+              что
+              упрощает расчет. Безо всяких
+              заморочек, в отличии от их конкурентов. Упаковали все качественно и быстро. Все вещи приехали в
+              сохранности.
+              <span class="review3">Особая
+                благодарность Александру.</span>
+            </div>
+            <a class="openReview3">Читать полностью</a>
+          </div>
+        </div>
+        <button class="reviews__button">Все отзывы</button>
+      </div>
+      <div class="forms">
+        <div class="forms__title">Закажи переезд прямо сейчас <span class="hidden-mobile">cо скидкой %</span></div>
+        <form>
+          <div class="form__content">
+            <div class="forms__subtitle">Мы перезвоним в течении 10 секунд</div>
+            <div class="forms__section1">
+              <div class="forms-name">
+                <input type="text" placeholder="Ваше имя" class="name">
+              </div>
+              <div class="forms-phone">
+                <input type="text" placeholder="Телефон" class="phone">
+              </div>
+            </div>
+            <div class="forms__section2">
+              <div class="forms-region">
+                <div class="select">Укажите область</div>
+                <select name="Region" id="region">
+                  <option value="1">Например: Минская</option>
+                  <option value="2">Минская</option>
+                  <option value="3">Бресткая</option>
+                  <option value="4">Гродненская</option>
+                  <option value="5">Витебская</option>
+                  <option value="6">Могилевская</option>
+                  <option value="7">Гомельская</option>
+                </select>
+              </div>
+              <div class="forms-city">
+                <div class="select">Укажите город</div>
+                <select name="Region" id="region" class="cities">
+                  <option value="1">Минск</option>
+                  <option value="2">Минск</option>
+                  <option value="3">Витебск</option>
+                  <option value="4">Гомель</option>
+                  <option value="5">Гродно</option>
+                  <option value="6">Брест</option>
+                  <option value="7">Могилёв</option>
+                </select>
+                <input type="text" class="add-city" placeholder="Добавить город">
+              </div>
+            </div>
+            <div class="forms-payment">
+              <div class="select">Способ оплаты</div>
+              <div class="forms-payment__position">
+                <label class="radio" tabindex="1">
+                  <input type="radio" name="answer" value="1" class="radio__input">
+                  <span class="radio__box"></span>
+                  Наличными курьеру
+                </label>
+                <label class="radio" tabindex="2">
+                  <input type="radio" name="answer" value="2" class="radio__input">
+                  <span class="radio__box"></span>
+                  Картой курьеру
+                </label>
+                <label class="radio" tabindex="3">
+                  <input type="radio" name="answer" value="3" class="radio__input">
+                  <span class="radio__box"></span>
+                  Банковский перевод
+                </label>
+              </div>
+            </div>
+            <div class="forms-services">
+              <div class="select">Дополнительные услуги
+                <span>
+                  <img src="images/Vector-top.png" alt="Arrow" class="select_img">
+                </span>
+              </div>
+              <div class="forms-services__position moreServices">
+                <label class="check">
+                  <input type="checkbox" name="call" class="check__input">
+                  <span class="check__box"></span>
+                  Вызов замерщика
+                </label>
+                <label class="check">
+                  <input type="checkbox" name="packing" class="check__input">
+                  <span class="check__box"></span>
+                  Упаковка для хрупких предметов
+                </label>
+                <label class="check">
+                  <input type="checkbox" name="crane" class="check__input">
+                  <span class="check__box"></span>
+                  Кран
+                </label>
+                <label class="check">
+                  <input type="checkbox" name="furniture" class="check__input">
+                  <span class="check__box"></span>
+                  Сборка мебели
+                </label>
+                <label class="check">
+                  <input type="checkbox" name="large-item" class="check__input">
+                  <span class="check__box"></span>
+                  Крупногабаритные предметы
+                </label>
+              </div>
+            </div>
+            <div class="forms__last-section">
+              <div class="forms-time">
+              </div>
+              <div class="forms-button">
+                <div class="forms__button-border">
+                  <button class="forms__button send" type="submit">
+                    <div class="hidden-mobile">Заказать <span>со скидкой</span></div>
+                    <div class="button-call-back">Перезвонить мне</div>
+                  </button>
+                  <div class="forms__white-border"></div>
+                </div>
+                <label class="consent">
+                  <input type="checkbox" name="consent" class="consent__input">
+                  <span class="consent__box"></span>
+                  <div class="consent__check">Даю согласие на обработку данных</div>
+                </label>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="maps">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2451.379097659213!2d23.69459495125935!3d52.09103187963581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47210bf0d6c7cb8f%3A0x5d0b2cc4f645f8ca!2z0YPQuy4g0JHRg9C00ZHQvdC90L7Qs9C-IDY0LCDQkdGA0LXRgdGC!5e0!3m2!1sru!2sby!4v1634639440521!5m2!1sru!2sby"
+          width="100%" height="666" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="maps-hidden">
+          <div class="city">Брест</div>
+          <div class="phone"><a href="tel:80299991213">8(029)&#8208;999&#8208;12&#8208;13</a></div>
+          <div class="link"><a href="#">hello@movee.ru</a></div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-width">
+        <div class="footer__title">
+          <div>MOVEE</div>
+          <a href="#">Политика конфиденциальности</a>
+          <a href="#">Соглашение на обработку персональных данных</a>
+        </div>
+        <nav class="footer__menu">
+          <a href="#" title="Главная">Главная</a>
+          <a href="#" title="Цены">Ценa</a>
+          <a href="#" title="Автопарк">Автопарк</a>
+          <a href="#" title="Отзывы">Отзывы</a>
+          <a href="#" title="Контакты">Контакты</a>
+        </nav>
+        <div class="footer__social-media">
+          <div class="footer-icons">
+            <a href="#"><img src="images/youtube.png" alt="youtube"></a>
+            <a href="#"><img src="images/vk.png" alt="vk"></a>
+            <a href="#"><img src="images/facebook.png" alt="facebook"></a>
+            <a href="#"><img src="images/instagram.png" alt="instagram"></a>
+          </div>
+          <div class="footer-mail"><a href="#">hello@movee.ru</a></div>
+          <div class="footer-share">
+            <div class="share-text">Поделиться в <br>
+              соц. сетях</div>
+            <div class="share-icons">
+              <a href="#"><img src="images/vk-more.png" alt="vk-more"></a>
+              <a href="#"><img src="images/facebook-more.png" alt="facebook-more"></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__contacts">
+          <button class="footer-button">
+            <div class="button-call">Обратный звонок</div>
+            <div class="button-order">Заказать</div>
+          </button>
+          <div class="footer__number">
+            <a href="tel:80299991213">8(029)&#8208;999&#8208;12&#8208;13</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
