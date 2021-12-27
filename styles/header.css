@@ -221,7 +221,7 @@
 }
 #menuMovee {
   position: relative;
-  left: 1rem;
+  left: 2.5rem;
   top: 3.43rem;
   font-weight: 600;
   color: var(--gray);
@@ -282,10 +282,12 @@
   width: auto;
 }
 #menuPhone {
+  position: relative;
+  left: 2.5rem;
   font-size: 1.5rem;
   font-weight: 600;
-  padding: 2rem 3.125rem 0 3.125rem;
-  text-align: center;
+  padding: 2rem 3.125rem 0 0;
+  width: 80%;
 }
 #menuPhone:hover {
   color: var(--red);
@@ -293,9 +295,11 @@
 #menuLine {
   border-bottom: 1px solid var(--gray);
   position: relative;
-  width: 70%;
-  left: 1.875rem;
+  width: 90%;
   padding-top: 0.5rem;
+}
+.closeMenu  img {
+  cursor: pointer;
 }
 @media all and (max-width: 400px) {
   #menuVertical {

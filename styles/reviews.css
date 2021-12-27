@@ -52,6 +52,7 @@
 }
 .openReview1, .openReview2, .openReview3 {
   border-bottom: 1px solid var(--gray);
+  cursor: pointer;
 }
 .reviews__button:hover {
   background-color: var(--white);

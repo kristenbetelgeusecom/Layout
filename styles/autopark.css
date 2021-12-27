@@ -155,6 +155,10 @@
     font-weight: 500;
     font-size: 1.25rem;
     line-height: 1.5rem;
+    cursor: pointer;
+  }
+  .button-media:hover {
+    box-shadow: 0 0.25rem 1.5rem var(--yellow);
   }
   .item {
     flex-direction: column;

@@ -62,6 +62,7 @@ input[type="text"] {
 .radio {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .radio__input {
   appearance: none;
@@ -102,6 +103,7 @@ input[type="text"] {
   display: flex;
   align-items: center;
   margin-bottom: 2rem;
+  cursor: pointer;
 }
 .check:nth-child(3n + 2) {
   margin-right: 2.5rem;
@@ -122,6 +124,7 @@ input[type="text"] {
   height: 1.5rem;
   border: 0.125rem solid var(--gray3);
   box-sizing: border-box;
+  /* cursor: pointer; */
 }
 .check__input:checked + .check__box {
   background: url(../images/check.svg) no-repeat;
